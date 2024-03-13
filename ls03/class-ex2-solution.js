@@ -1,11 +1,12 @@
 const counters = {};
 
 
-const str = 'abcd';
-for (var i = 0; i < 2; i++) {
-    const currentChat = str[i];
-    if (typeof counters[currentChat] == 'undefined') {
-        counters[currentChat] = 1;
+const str = 'avraham';
+for (var i = 0; i < str.length; i++) {
+    const currentChar = str[i];
+
+    if (typeof counters[currentChar] == 'undefined') {
+        counters[currentChar] = true;
     } else {
         return false;
     }
