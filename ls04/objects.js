@@ -34,6 +34,11 @@ var myObj2 = {
     married: true
 };
 
+// dot notation
+myObj2.age = 38;
+
+// Bracket notation
+myObj2["age"] = 38;
 
 var myObj3 = {
     key1: 1,
@@ -46,7 +51,7 @@ console.log(myObj3);
 myObj3.key1 = 20;
 myObj3.key2 = 30;
 
-
+// Bracket notation
 myObj3["key1"] = 50;
 myObj3["key3"] = 80;
 
