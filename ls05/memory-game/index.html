@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>div {
+            background: #aaa;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        body>div>div {
+            flex-grow: 1;
+            width: 33%;
+            height: 30px;
+            text-align: center;
+            font-size: 30px;
+            color: white;
+            line-height: 30px;
+        }
+
+        body>div>div:nth-child(even) {
+            background: #23a;
+        }
+
+        body>div>div:nth-child(odd) {
+            background: #49b;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div onclick="showCard(0)" id="card0"></div>
+        <div onclick="showCard(1)" id="card1"></div>
+        <div onclick="showCard(2)" id="card2"></div>
+        <div onclick="showCard(3)" id="card3"></div>
+        <div onclick="showCard(4)" id="card4"></div>
+        <div onclick="showCard(5)" id="card5"></div>
+        <div onclick="showCard(6)" id="card6"></div>
+        <div onclick="showCard(7)" id="card7"></div>
+        <div onclick="showCard(8)" id="card8"></div>
+        <div onclick="showCard(9)" id="card9"></div>
+        <div onclick="showCard(10)" id="card10"></div>
+        <div onclick="showCard(11)" id="card11"></div>
+        </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
