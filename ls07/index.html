@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body dir="rtl">
+    <label>שם מקבל הברכה: <input id="name" type="text"></label>
+    <label>סוג האירוע:
+        <select id="kind">
+            <option value="birthday">יום הולדת</option>
+            <option value="wedding">חתונה</option>
+            <option value="barmizvah">בר מצווה</option>
+        </select>
+    </label>
+    <button onclick="onGreetButtonClick()">צור ברכה</button>
+    <hr>
+    <div id="greeting"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
