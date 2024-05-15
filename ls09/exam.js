@@ -51,8 +51,8 @@ class Vehicle {
 
 let vehicles = [];
 function addVehicle() {
-    let vehicleNumber = document.getElementById('a').value;
-    let selectedServicesElements = document.getElementById('b').selectedOptions;
+    let vehicleNumber = document.getElementById('vehicleNumber').value;
+    let selectedServicesElements = document.getElementById('services').selectedOptions;
     let selectedServices = []
 
     const v = new Vehicle(vehicleNumber);
