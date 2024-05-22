@@ -52,9 +52,6 @@ function addVehicle() {
         }
         vehicles.push(v);
     }
-
-
-
 }
 
 function showServices() {
@@ -71,7 +68,4 @@ function showServices() {
 document.getElementById('showServices').addEventListener('click', showServices);
 document.getElementById('addVehicle').addEventListener('click', addVehicle);
 let vehicles = [];
-
-var vehicle1 = new Vehicle("232323");
-console.log(vehicle1);
 
