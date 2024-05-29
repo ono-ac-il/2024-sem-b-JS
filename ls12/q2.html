@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .red {
+            color: red;
+        }
+
+        input {
+            width: 20%;
+        }
+    </style>
 </head>
 
 <body>
@@ -12,6 +21,10 @@
     <p></p>
     <input type="number" id="geussInput" min="1" max="100">
     <button onclick="checkGuess()">Guess</button>
+    <button onclick="startGame()">Restart game</button>
+
+    <button onclick="provideHint()">Get hint</button>
+
     <p id="feedback"></p>
     <p id="tries"></p>
     <script src="q2.js"></script>
