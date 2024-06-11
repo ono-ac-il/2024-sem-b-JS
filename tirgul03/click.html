@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="temp"></div>
+    <button id="a">click</button>
+    <script>
+        function something() {
+            document.getElementById('temp').innerHTML = Math.random() * 10000;
+        }
+        document.getElementById('a').addEventListener('click', something, {
+            once: true
+        });
+    </script>
+</body>
+
+</html>
